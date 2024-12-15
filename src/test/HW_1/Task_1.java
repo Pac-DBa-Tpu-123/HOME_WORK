@@ -3,7 +3,7 @@ package HW_1;
 public class Task_1 {
 
     public static int minutesToSeconds(String time) {
-        if (time == null || !time.matches("\\d{1,}:\\d{2}")) {
+        if (time == null || !time.matches("a{1,}:a{2}")) {
             return -1;
         }
 
