@@ -19,11 +19,11 @@ public class Task_1 {
     }
 
     public static void main(String[] args) {
-        System.out.println(minutesToSeconds("01:00")); // 60
-        System.out.println(minutesToSeconds("13:56")); // 836
-        System.out.println(minutesToSeconds("10:60")); // -1
-        System.out.println(minutesToSeconds("999:59")); // 59999
-        System.out.println(minutesToSeconds("12:ab")); // -1
-        System.out.println(minutesToSeconds("12:09:10")); // -1
+        System.out.println(minutesToSeconds("01:00")); 
+        System.out.println(minutesToSeconds("13:56")); 
+        System.out.println(minutesToSeconds("10:60")); 
+        System.out.println(minutesToSeconds("999:59")); 
+        System.out.println(minutesToSeconds("12:ab")); 
+        System.out.println(minutesToSeconds("12:09:10")); 
     }
 }
